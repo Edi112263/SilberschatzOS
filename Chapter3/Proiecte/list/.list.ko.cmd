@@ -1,0 +1,1 @@
+cmd_/home/edi/Desktop/OS/Chapter3/Proiecte/list/list.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 --build-id  -T ./scripts/module-common.lds -o /home/edi/Desktop/OS/Chapter3/Proiecte/list/list.ko /home/edi/Desktop/OS/Chapter3/Proiecte/list/list.o /home/edi/Desktop/OS/Chapter3/Proiecte/list/list.mod.o;  true
