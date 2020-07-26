@@ -1,3 +1,8 @@
+ /* Validare sudoku folosind multithreading. 
+  * Pp ca in input se gasesc doar numere de la 1 la 9.
+  */
+
+
 #include <stdio.h>
 #include <pthread.h>
 #include <stdlib.h>
@@ -105,10 +110,6 @@ void* verif_zona(void* p)
 
 int main()
 {
-    /* Validare sudoku folosind multithreading. 
-     * Pp ca in input se gasesc doar numere de la 1 la 9.
-    */
-    
     pthread_t workers[11]; // threadurile
     int i, j, idx = 0;
     int *p;
